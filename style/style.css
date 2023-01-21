@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    background: #151515;
+}
+img{
+    vertical-align: middle;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+                    /* =============== HEADER ============== */
+.header{
+    background: url('../img/Header.png');  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+/* =============== NAVIGATION ============== */
+.nav{
+    background: #282828;
+    padding: 6px 0;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_left, .nav-right, .list{
+    display: flex;
+    align-items: center;
+}
+.nav_left{
+    gap: 30px;
+}
+.logo img{
+    width: 100%;
+}
+.list{
+    gap: 30px;
+}
+.link{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    transition: .3s;
+}
+
+.link:hover{
+    color: #ffffffaf;
+}
+/* =============== NAVIGATION ============== */
+
+/* =============== INTRO ============== */
+.header-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+.header-intro_title{
+    font-family: 'Prosto One';
+    font-weight: normal;
+    font-size: 100px;
+    color: #FFFFFF;
+
+}
+.header-intro_link{
+    background: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 200px; */
+    padding: 13px 14px;
+    transition: .3s;
+}
+.header-intro_link:hover{
+    background: #ffffffaf;
+}
+.header-intro_link_text{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #171718;
+    margin-right: 11px ;
+}
+
+/* =============== INTRO ============== */
+
+                    /* =============== HEADER ============== */
+/* ------------------------------------------------------------------------- */
+                    /* =============== MAIN ============== */
+.main{
+    padding: 30px 0 55px;
+}
+/* =============== TOP ============== */
+.main-content_top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.main-content_top_text{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFFFFF;
+    padding-top: 33px;
+    width: 538px;
+}
+.main-content_top img{
+    max-width: 540px;
+}
+/* =============== TOP ============== */
+
+/* =============== CENTER ============== */
+.main-content_center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.main-content_center_text{
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 22px;
+    color: #FFFFFF;
+    width: 540px;
+}
+.main-content_center img{
+    padding-left: 26px;
+}
+/* =============== CENTER ============== */
+
+/* =============== BOTTOM ============== */
+.main-content_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px ;
+}
+.main-content_bottom_text1,
+.main-content_bottom_text2{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    max-width: 335px;
+}
+.main-content_bottom_text1{  
+    text-align: right;
+}
+.main-content_bottom hr{
+    width: 50px;
+    background: #C4C4C4;
+}
+
+/* =============== BOTTOM ============== */
+
+/* =============== CARDS ============== */
+.cards_block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card{
+    background: #FFFFFF;
+    border-radius: 6px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 47px;
+}
+.card_title{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+}
+.cards_block img{
+    margin: 10px 0;
+}
+.card_price{
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom:  20px;
+}
+.card_link{
+    font-family: 'Montserrat';    
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #151515;
+    padding: 7px 57px;
+    border-radius: 3px;
+    transition: .3s;
+}
+.card_link:hover{
+    opacity: .9;
+}
+/* =============== CARDS ============== */
+
+                    /* =============== MAIN ============== */
+
+                    /* =============== FOOTER ============== */
+.footer{
+    background: #282828;
+    padding: 80px 0;
+}
+.footer-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-nav_center{
+    margin-left: 70px;
+}
+.footer-nav_right{
+    transition: .3s;
+}
+.footer-nav_right .link:hover{
+    opacity: 0.7;
+}
+                    /* =============== FOOTER ============== */
